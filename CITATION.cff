@@ -1,0 +1,9 @@
+
+cff-version: 1.2.0
+title: Hard-Constrained ML Survey
+message: If you use this repository, please cite the companion survey paper and this repository.
+type: dataset
+authors:
+  - name: Lem
+repository-code: https://github.com/lem/Hard-Constrained-ML-Survey
+license: MIT
