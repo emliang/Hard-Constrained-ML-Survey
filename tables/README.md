@@ -1,6 +1,15 @@
 
 # Tables
 
-This folder stores CSV exports and derived views for the survey companion repository.
+CSV tables in this folder provide reader-friendly slices of the method landscape.
 
-The method-family CSVs are generated from `data/methods.yaml`; they are meant for browsing and downstream tooling, not as a replacement for the source-checked method index.
+Use them to compare:
+
+- predictive feasibility mechanisms,
+- generative feasibility mechanisms,
+- implicit optimization layers,
+- explicit feasibility layers,
+- guided-generation methods,
+- evaluation reporting dimensions.
+
+The conceptual explanations live in `../docs/`.

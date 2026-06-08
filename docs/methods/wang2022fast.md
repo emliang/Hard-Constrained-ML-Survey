@@ -22,7 +22,7 @@
 
 **Guarantee Basis**: source checked at abstract/first-pages level; mechanism details require follow-up reading for final manuscript claims.
 
-**Inference Dependency**: source-specific; not fully audited in this batch.
+**Inference Dependency**: source-specific; needs source-specific detail.
 
 **Main Tradeoff**: Already cited/application context; use IEEE page URL if bib URL hygiene is needed
 
