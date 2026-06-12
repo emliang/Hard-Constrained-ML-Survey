@@ -1,14 +1,9 @@
-
 # Data
 
-This folder supports the reader-facing guide with machine-readable indexes.
+This folder contains the public, reader-facing indexes used by the guide.
 
-- `methods.yaml`: compact method metadata and comparison fields.
 - `papers.csv`: cited-paper index.
-- `method_timeline.csv`: method-paper timeline.
-- `taxonomy.yaml`: high-level taxonomy labels.
-- `evaluation_terms.yaml`: reporting and guarantee vocabulary.
-- `benchmarks.yaml`: application and benchmark themes.
-- `references.bib`: BibTeX snapshot.
+- `method_timeline.csv`: chronological method-paper timeline.
+- `references.bib`: BibTeX snapshot for cited papers.
 
-These files are useful for browsing, filtering, and maintaining the guide. They are not the main entry point for readers.
+Detailed local source-check metadata, method cards, and generation inputs are intentionally not published in this repository.

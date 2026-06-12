@@ -8,3 +8,9 @@ venv/
 dist/
 build/
 site/
+
+# Local survey working indexes, not published
+docs/methods/
+data/methods.yaml
+tables/*.csv
+notebooks/*.ipynb

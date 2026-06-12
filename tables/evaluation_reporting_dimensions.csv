@@ -1,9 +1,0 @@
-angle,dimension,question,what_to_report
-constraint_satisfaction,guarantee_type,What supports the feasibility claim?,By-construction maps; solver-tolerance repairs; certificates; convergence statements; probabilistic guarantees; empirical violation rates
-constraint_satisfaction,violation_evidence,How large are remaining violations?,Maximum and average residuals; violation rates; equality and inequality residuals; tolerance choices
-output_utility,prediction_utility,Does the constrained output solve the task well?,Prediction error; objective gap; downstream reward; decision quality; application-specific utility
-output_utility,generation_utility,Does the constrained generator preserve useful distributions?,Fidelity; diversity; likelihood; validity; novelty; downstream utility
-computational_cost,offline_cost,What extra cost is paid during fitting?,Penalty or dual updates; verifier calls; differentiable solver training; data generation; fine-tuning cost
-computational_cost,online_cost,What extra cost is paid at inference or sampling?,Forward passes; projection or repair solves; solver iterations; sampler steps; memory use
-applicability_and_assumptions,constraint_scope,Which constraint families are supported?,Boxes; affine sets; cones; convex sets; manifolds; nonlinear equalities; mixed-integer constraints; input-dependent feasible sets
-applicability_and_assumptions,hidden_conditions,What must hold for the claim to apply?,Solver termination; tolerance choices; oracle access; valid maps; bounded regions; calibrated classifiers; discretization rules

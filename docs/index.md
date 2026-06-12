@@ -1,4 +1,3 @@
-
 # Reader Guide
 
 This companion site is for understanding the landscape of hard-constrained machine learning.
@@ -22,7 +21,3 @@ It is written for readers who want to compare method families, interpret feasibi
 - [Guarantee terminology](evaluation/guarantee-terminology.md)
 - [Method-selection checklist](evaluation/method-selection-checklist.md)
 - [Applications and benchmarks](applications/optimization.md)
-
-## Supporting material
-
-The method cards and machine-readable files are supporting indexes. They help locate papers and compare metadata, but the main purpose of the repository is reader understanding.
