@@ -14,6 +14,7 @@ This README follows the survey's structure: preliminaries and evaluation termino
 
 - [Survey Logic](#survey-logic)
 - [Reading Lens](#reading-lens)
+- [Next Steps](#next-steps)
 - [Related Surveys and Foundations](#related-surveys-and-foundations)
 - [Part I: Hard-Constrained Predictive Models](#part-i-hard-constrained-predictive-models)
   - [Training-Based Approaches](#training-based-approaches)
@@ -50,6 +51,14 @@ Every paper is easier to compare through four questions.
 | Scope and assumptions | Where does the claim apply? | Constraint class, domain, oracle, map validity, solver assumptions, discretization. |
 
 ![Evaluation dimensions](figures/evaluation.png)
+
+## Next Steps
+
+We plan to add a formula-level and implementation-level comparison for each method family.
+
+- Add representative mathematical formulations for each method family.
+- Add simple reference implementations or pseudocode for the core enforcement mechanism.
+- Keep the examples minimal so readers can compare guarantee source, utility trade-off, and computational cost directly.
 
 ## Related Surveys and Foundations
 
