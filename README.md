@@ -8,6 +8,8 @@
 
 > A reader-facing paper list and guide for hard-constrained machine learning, organized by the logic of the companion survey.
 
+![Hard-constrained machine learning overview](figures/project-overview.png)
+
 This README follows the survey's structure: preliminaries and evaluation terminology first, then hard-constrained predictive models, hard-constrained generative models, applications and benchmarks, and finally cross-cutting reading guides.
 
 ## Contents
@@ -420,6 +422,8 @@ Generative methods produce samples that must remain valid under explicit structu
 | 9 | decision-aligned flow training | <a href="https://arxiv.org/pdf/2605.12754">Constraint-Aware Flow Matching: Decision Aligned End-to-End Training for Constrained Sampling</a> | arXiv | 2026 |
 
 ## Applications and Benchmarks
+
+![Application domains](figures/applications.png)
 
 The application section uses the same evaluation lens across domains: feasibility evidence, output utility, enforcement cost, and assumption scope.
 
