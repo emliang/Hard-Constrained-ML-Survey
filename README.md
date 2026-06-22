@@ -8,7 +8,6 @@
 
 > A reader-facing paper list and guide for hard-constrained machine learning, organized by the logic of the companion survey.
 
-![Hard-constrained machine learning overview](figures/project-overview.png)
 
 This README follows the survey's structure: preliminaries and evaluation terminology first, then hard-constrained predictive models, hard-constrained generative models, applications and benchmarks, and finally cross-cutting reading guides.
 
@@ -44,15 +43,15 @@ This README follows the survey's structure: preliminaries and evaluation termino
 ## Reading Lens
 
 Every paper is easier to compare through four questions.
-
+<!-- 
 | Angle | Reader question | What to check |
 |---|---|---|
 | Constraint satisfaction | What supports feasibility? | Guarantee type, residuals, tolerances, certificates, validity rates. |
 | Output utility | Is the constrained output useful? | Accuracy, objective gap, reward, sample quality, diversity, downstream utility. |
 | Cost | What is paid for enforcement? | Training overhead, solver calls, repair iterations, sampler steps, latency, memory. |
-| Scope and assumptions | Where does the claim apply? | Constraint class, domain, oracle, map validity, solver assumptions, discretization. |
+| Scope and assumptions | Where does the claim apply? | Constraint class, domain, oracle, map validity, solver assumptions, discretization. | -->
 
-![Evaluation dimensions](figures/evaluation.png)
+![Evaluation dimensions](figures/metric.png)
 
 ## Next Steps
 
@@ -88,7 +87,7 @@ We plan to add a formula-level and implementation-level comparison for each meth
 | 16 | trustworthy optimization learning | <a href="https://doi.org/10.1515/9783111376776-009">Trustworthy optimization learning: a brief overview</a> | Mathematical Optimization for… | 2025 |
 | 17 | physics-informed ML survey | <a href="https://doi.org/10.1007/s44379-025-00016-0">When physics meets machine learning: A survey of physics-informed machine learning</a> | Machine Learning for… | 2025 |
 
-### Foundations and Preliminaries
+<!-- ### Foundations and Preliminaries
 
 #### 0.1 Neural Networks and Model Foundations
 
@@ -123,7 +122,7 @@ We plan to add a formula-level and implementation-level comparison for each meth
 
 | # | Keywords | Paper | Venue | Year |
 |---:|---|---|---|---:|
-| 1 | convex optimization reference | Convex optimization | Cambridge university press | 2004 |
+| 1 | convex optimization reference | Convex optimization | Cambridge university press | 2004 | -->
 
 ## Part I: Hard-Constrained Predictive Models
 
@@ -506,7 +505,7 @@ The application section uses the same evaluation lens across domains: feasibilit
 | 10 | safe multi-robot discrete guidance | <a href="https://ojs.aaai.org/index.php/AAAI/article/download/39512/43473">Discrete-guided diffusion for scalable and safe multi-robot motion planning</a> | AAAI | 2026 |
 | 11 | constraint-guided driving planner | <a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Liu_GuideFlow_Constraint-Guided_Flow_Matching_for_Planning_in_End-to-End_Autonomous_Driving_CVPR_2026_paper.pdf">GuideFlow: Constraint-guided flow matching for planning in end-to-end autonomous driving</a> | Proceedings of the IEEE/CVF… | 2026 |
 
-## Reader Guides and Data
+<!-- ## Reader Guides and Data
 
 - [Start Here](docs/start-here.md)
 - [How to Read a Hard-Constraint Claim](docs/reader-guide/how-to-read-a-hard-constraint-claim.md)
@@ -516,7 +515,7 @@ The application section uses the same evaluation lens across domains: feasibilit
 - [Reporting Dimensions](docs/evaluation/reporting-dimensions.md)
 - [Public paper index](data/papers.csv)
 - [Method timeline](data/method_timeline.csv)
-- [BibTeX snapshot](data/references.bib)
+- [BibTeX snapshot](data/references.bib) -->
 
 ## Citation
 
