@@ -7,9 +7,11 @@ Predictive methods return decisions, labels, trajectories, controls, or optimiza
 
 | Family | Core idea | Typical evidence |
 |---|---|---|
-| Training-time losses and dual methods | Penalize or optimize violations during fitting. | Empirical residuals, convergence assumptions, or dual certificates. |
-| Post-processing and repair | Correct raw predictions after inference. | Solver tolerance, projection quality, repair success rate. |
-| Structured NN or optimization layers | Embed a differentiable solve, completion, or fixed-point operation. | Solver exactness, layer assumptions, KKT or fixed-point conditions. |
-| Explicit feasibility mappings | Map unconstrained outputs into feasible regions. | Map validity and by-construction feasibility. |
-| Constraint parameterization | Parameterize only feasible outputs. | Exactness of the parameterization and coverage of the feasible set. |
-| Verification and editing | Certify or edit a trained model over a specified domain. | Certificate scope, relaxation tightness, or edited-property proof. |
+| Training-based approaches | Soft penalties, Lagrangian procedures, or verification-guided training and editing. | Evaluated residuals or a property established for the resulting predictor over a stated domain. |
+| Structured NN layers | Explicit constructions, equality completion, or embedded optimization. | Construction assumptions or the residual of the returned numerical output. |
+| Constraint parameterization | Feasible combinations, feasible distributions, or global feasible-set maps. | Valid generators, distribution support, or map image within the feasible set. |
+| Post-processing approaches | Warm-start a solver or correct a completed prediction. | Feasibility and quality of the final solve or corrected output. |
+
+Hybrid pipelines combine these roles. Explicit layers act on predictive output quantities within the trained forward pass; parameterizations interpret reference coordinates or coefficients. Verification of an unchanged model supplies evidence, while verification-guided training or editing changes the predictor.
+
+See [the numbered paper tables](../papers/prediction.md).

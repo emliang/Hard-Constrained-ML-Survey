@@ -1,9 +1,7 @@
-# Data
+# Paper Lists
 
-This folder contains the public, reader-facing indexes used by the guide.
+- [Paper index](papers.csv): entries from the [paper lists](../README.md#browse-papers), with section, keywords, title, venue, year, and paper link.
+- [Method timeline](method_timeline.csv): the same entries ordered by year.
+- [BibTeX](references.bib): standard citation metadata for the listed papers.
 
-- `papers.csv`: cited-paper index.
-- `method_timeline.csv`: chronological method-paper timeline.
-- `references.bib`: BibTeX snapshot for cited papers.
-
-Detailed local source-check metadata, method cards, and generation inputs are intentionally not published in this repository.
+A paper can appear in more than one section when it combines mechanisms or illustrates an application. These files contain public reference information only.

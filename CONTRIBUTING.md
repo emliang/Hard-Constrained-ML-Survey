@@ -3,26 +3,15 @@
 
 This repository is a reader guide. Contributions should improve understanding, comparison, or navigation for readers of hard-constrained ML papers.
 
-## Good contributions
+## Add or Correct a Paper
 
-- Clarify a method family.
-- Add a short example that helps readers understand a constraint type.
-- Improve a guarantee or reporting definition.
-- Add a paper to the method index with a concise mechanism summary.
-- Add an application note that explains what feasibility means in that domain.
+1. Provide an original paper or proceedings link, publication venue, and year.
+2. Suggest the closest numbered subsection in the [paper lists](README.md#browse-papers). Use the constraint-handling mechanism described in the paper, rather than its title alone.
+3. Write a few distinguishing keywords, such as `CBF action filtering` or `feasible-coordinate transport`.
+4. Briefly explain the placement. A hybrid paper can appear in several sections when different mechanisms are relevant.
 
-## Evidence standard
+General model foundations should be identified as background. Low measured violations, solver convergence, and by-construction feasibility support different claims.
 
-When adding or changing a method classification:
+Edit the relevant list under `docs/papers/`. Keep the columns `# | Keywords | Paper | Venue | Year`, link the paper title, use a recognizable venue abbreviation, and preserve chronological order. Keep the paper index, timeline, BibTeX, and homepage counts in sync.
 
-1. Read the original paper text or at least the abstract and first pages.
-2. Identify the enforcement mechanism.
-3. Identify the guarantee basis.
-4. State inference dependencies and main trade-offs.
-5. If source evidence has not been checked, mark the entry as `pending_source_check`.
-
-Do not classify a method from title alone.
-
-## Style
-
-Write for readers. Prefer short explanations, comparison tables, and practical checks over internal process notes.
+Issues are welcome when the proposed classification needs discussion. Other useful contributions include clearer comparisons, formulas, minimal implementations, and corrections to publication metadata.
