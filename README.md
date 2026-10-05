@@ -25,13 +25,17 @@ A categorized collection of papers on hard-constrained **prediction** and **gene
 - [2.5 Hybrid Pipelines](docs/papers/prediction.md#25-hybrid-pipelines)
 
 
-**[3. Hard-Constrained Generation](docs/papers/generation.md)** · 119 papers
+**[3. Hard-Constrained Generation](docs/papers/generation.md)** · 141 papers
 
 
 - [3.1 Direct Generation](docs/papers/generation.md#31-direct-generation)
 - [3.2 Autoregressive Generation](docs/papers/generation.md#32-autoregressive-generation)
 - [3.3 Diffusion and Flow-Based Generation](docs/papers/generation.md#33-diffusion-and-flow-based-generation)
-- [3.4 Learning and Combining Mechanisms](docs/papers/generation.md#34-learning-and-combining-mechanisms)
+  - [3.3.1 Training-Based Methods](docs/papers/generation.md#331-training-based-methods)
+  - [3.3.2 Geometry-Aware Sampling](docs/papers/generation.md#332-geometry-aware-sampling)
+  - [3.3.3 Constraint Parameterization](docs/papers/generation.md#333-constraint-parameterization)
+  - [3.3.4 Guidance, Correction, and Search](docs/papers/generation.md#334-guidance-correction-and-search)
+  - [3.3.5 Combining Mechanisms](docs/papers/generation.md#335-combining-mechanisms)
 
 
 **[4. Applications and Evaluation](docs/papers/applications.md)** · 43 papers
@@ -41,7 +45,7 @@ A categorized collection of papers on hard-constrained **prediction** and **gene
 - [4.2 Scientific Computing and Discovery](docs/papers/applications.md#42-scientific-computing-and-discovery)
 - [4.3 Evaluator-Guided Generation](docs/papers/applications.md#43-evaluator-guided-generation)
 
-**286 unique papers.** Counts are unique within each list; papers may appear in several lists. General model foundations are marked as background.
+**308 unique papers.** Counts are unique within each list; papers may appear in several lists. General model foundations are marked as background.
 
 ## Applications
 

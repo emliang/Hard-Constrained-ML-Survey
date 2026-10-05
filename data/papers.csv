@@ -167,109 +167,131 @@ section,keywords,title,venue,year,url
 3.2 Autoregressive Generation,ChopChop semantic prefix pruning,ChopChop: A Programmable Framework for Semantically Constraining the Output of Language Models,POPL,2026,https://doi.org/10.1145/3776708
 3.2 Autoregressive Generation,CARS invalid-prefix adaptive rejection,Constrained Adaptive Rejection Sampling,ICML,2026,https://proceedings.mlr.press/v306/parys26a.html
 3.2 Autoregressive Generation,global decoding with completion probabilities,Mitigating Bias in Locally Constrained Decoding via Tractable Proposals,ICML,2026,https://proceedings.mlr.press/v306/dang26c.html
-3.3.1 Geometry-Aware Sampling: Reflection,barrier/reflected diffusion,Diffusion models for constrained domains,arXiv,2023,https://arxiv.org/pdf/2304.05364
-3.3.1 Geometry-Aware Sampling: Reflection,reflection-based diffusion,Reflected diffusion models,ICML,2023,https://proceedings.mlr.press/v202/lou23a.html
-3.3.1 Geometry-Aware Sampling: Reflection,Metropolis constrained sampling,Metropolis sampling for constrained diffusion models,NeurIPS,2024,https://openreview.net/forum?id=jzseUq55eP
-3.3.1 Geometry-Aware Sampling: Reflection,Reflected flow matching,Reflected Flow Matching,arXiv,2024,https://arxiv.org/pdf/2405.16577
-3.3.1 Geometry-Aware Sampling: Reflection,reflected Schrodinger bridge,Reflected Schrödinger Bridge for Constrained Generative Modeling,arXiv,2024,https://arxiv.org/pdf/2401.03228
-3.3.2 Geometry-Aware Sampling: Manifolds,Riemannian diffusion,Riemannian diffusion models,NeurIPS,2022,https://proceedings.neurips.cc/paper_files/paper/2022/hash/123d3e814e257e0781e5d328232ead9b-Abstract-Conference.html
-3.3.2 Geometry-Aware Sampling: Manifolds,Riemannian Schrodinger bridge,Riemannian Diffusion Schrödinger Bridge,arXiv,2022,https://arxiv.org/pdf/2207.03024
-3.3.2 Geometry-Aware Sampling: Manifolds,manifold score model,Riemannian score-based generative modelling,NeurIPS,2022,https://proceedings.neurips.cc/paper_files/paper/2022/hash/105112d52254f86d5854f3da734a52b4-Abstract-Conference.html
-3.3.2 Geometry-Aware Sampling: Manifolds,scalable Riemannian diffusion,Scaling riemannian diffusion models,NeurIPS,2023,https://openreview.net/forum?id=FLTg8uA5xI
-3.3.2 Geometry-Aware Sampling: Manifolds,SE(3) protein diffusion,SE(3) diffusion model with application to protein backbone generation,arXiv,2023,https://arxiv.org/pdf/2302.02277
-3.3.2 Geometry-Aware Sampling: Manifolds,categorical statistical-manifold flow,Categorical flow matching on statistical manifolds,NeurIPS,2024,https://openreview.net/forum?id=5fybcQZ0g4
-3.3.2 Geometry-Aware Sampling: Manifolds,Fisher-geometric flow matching,Fisher flow matching for generative modeling over discrete data,arXiv,2024,https://arxiv.org/pdf/2405.14664
-3.3.2 Geometry-Aware Sampling: Manifolds,Riemannian / general-geometry flow matching,Flow Matching on General Geometries,ICLR,2024,https://openreview.net/forum?id=g7ohDlTITL
-3.3.2 Geometry-Aware Sampling: Manifolds,Riemannian flow matching for materials,FlowMM: Generating materials with Riemannian flow matching,arXiv,2024,https://arxiv.org/pdf/2406.04713
-3.3.2 Geometry-Aware Sampling: Manifolds,Metric / geodesic flow matching,Metric flow matching for smooth interpolations on the data manifold,NeurIPS,2024,https://openreview.net/forum?id=fE3RqiF4Nx
-3.3.2 Geometry-Aware Sampling: Manifolds,manifold diffusion and flow framework,Unified Framework for Diffusion Generative Models in SO(3): Applications in Computer Vision and Astrophysics,AAAI,2024,https://ojs.aaai.org/index.php/AAAI/article/download/29171/30215
+3.3.1 Training-Based Methods,shortcut DDPM fine-tuning,Optimizing ddpm sampling with shortcut fine-tuning,arXiv,2023,https://arxiv.org/pdf/2301.13362
+3.3.1 Training-Based Methods,adjoint-matching fine-tuning,Adjoint matching: Fine-tuning flow and diffusion generative models with memoryless stochastic optimal control,arXiv,2024,https://arxiv.org/pdf/2409.08861
+3.3.1 Training-Based Methods,dual constrained training,Constrained diffusion models via dual training,NeurIPS,2024,https://openreview.net/forum?id=Es2Ey2tGmM
+3.3.1 Training-Based Methods,entropy-regularized diffusion control,Fine-tuning of continuous-time diffusion models as entropy-regularized control,arXiv,2024,https://arxiv.org/pdf/2402.15194
+3.3.1 Training-Based Methods,generative calibration,Calibrating Generative Models,arXiv,2025,https://arxiv.org/pdf/2510.10020
+3.3.1 Training-Based Methods,constrained diffusion composition,Composition and alignment of diffusion models using constrained learning,NeurIPS,2025,https://proceedings.neurips.cc/paper_files/paper/2025/file/1af991de2d4c4e679bcc5d9e23ac6bae-Paper-Conference.pdf
+3.3.1 Training-Based Methods,DDAT training / denoising trajectory projection,DDAT: Diffusion Policies Enforcing Dynamically Admissible Robot Trajectories,RSS,2025,https://www.roboticsproceedings.org/rss21/p078.html
+3.3.1 Training-Based Methods,hard linear-equality constrained DGM,Deep Generative Models with Hard Linear Equality Constraints,arXiv,2025,https://arxiv.org/abs/2502.05416
+3.3.1 Training-Based Methods,physics-constrained flow fine-tuning,Physics-Constrained Fine-Tuning of Flow-Matching Models for Generation and Inverse Problems,arXiv,2025,https://arxiv.org/pdf/2508.09156
+3.3.1 Training-Based Methods,physics-informed diffusion training,Physics-Informed Diffusion Models,ICLR,2025,https://proceedings.iclr.cc/paper_files/paper/2025/hash/096347b4efc264ae7f07742fea34af1f-Abstract-Conference.html
+3.3.1 Training-Based Methods,softly constrained denoiser,Softly Constrained Denoisers for Diffusion Models,arXiv,2025,https://arxiv.org/pdf/2512.14980
+3.3.1 Training-Based Methods,unified diffusion bridge,UniDB: A Unified Diffusion Bridge Framework via Stochastic Optimal Control,arXiv,2025,https://arxiv.org/pdf/2502.05749
+3.3.1 Training-Based Methods,dual-conditioned score model; ensemble inference,Constrained Diffusion Models with Primal-Dual Inference,arXiv,2026,https://arxiv.org/abs/2606.17192
+3.3.1 Training-Based Methods,sequential augmented-Lagrangian flow fine-tuning,Constrained Flow Optimization via Sequential Fine-Tuning for Molecular Design,ICML,2026,https://proceedings.mlr.press/v306/gutjahr26a.html
+3.3.1 Training-Based Methods,FM-DD endpoint distance; FM-RE membership queries,Constraint-Aware Flow Matching via Randomized Exploration,TMLR,2026,https://openreview.net/forum?id=OR4h9WPJhV
+3.3.1 Training-Based Methods,decision-aligned flow training,Constraint-Aware Flow Matching: Decision Aligned End-to-End Training for Constrained Sampling,arXiv,2026,https://arxiv.org/pdf/2605.12754
+3.3.1 Training-Based Methods,MBM++ gradient-conditioned residual updates,Improved Constrained Generation by Bridging Pretrained Generative Models,arXiv,2026,https://arxiv.org/abs/2603.06742
+3.3.1 Training-Based Methods,rollout-trained sampling guidance,Integration Matters: Rollout-Based Training for Constrained Diffusion Models,arXiv,2026,https://arxiv.org/abs/2607.14398
+3.3.1 Training-Based Methods,REPA-P physical supervision of latent features,Learning to Think in Physics: Breaking Shortcut Learning in Scientific Diffusion via Representation Alignment,ICML,2026,https://proceedings.mlr.press/v306/jia26j.html
+3.3.1 Training-Based Methods,normal perturbations and final manifold projection,Manifold-Aware Perturbations for Constrained Generative Modeling,ICML,2026,https://proceedings.mlr.press/v306/keegan26a.html
+3.3.1 Training-Based Methods,endpoint physics residuals; conflict-free gradients,Physics vs Distributions: Pareto Optimal Flow Matching with Physics Constraints,ICLR,2026,https://proceedings.iclr.cc/paper_files/paper/2026/hash/a57483b394a3654f4317051e4ce3b2b8-Abstract-Conference.html
+3.3.1 Training-Based Methods,physics-informed diffusion distillation,Physics-Informed Distillation of Diffusion Models for PDE-Constrained Generation,ICML,2026,https://proceedings.mlr.press/v306/zhang26gl.html
+3.3.1 Training-Based Methods,sCM-PINN structure-preserving decoder tuning,Stabilizing Physics-Informed Consistency Models via Structure-Preserving Training,KDD,2026,https://doi.org/10.1145/3770855.3819059
+3.3.1 Training-Based Methods,physics-informed generator distillation,Ultra Fast PDE Solving via Physics Guided Few-step Diffusion,arXiv,2026,https://arxiv.org/abs/2602.03627
+3.3.1 Training-Based Methods,Flow Expander entropy and verifier fine-tuning,Verifier-Constrained Flow Expansion for Discovery Beyond the Data,ICLR,2026,https://proceedings.iclr.cc/paper_files/paper/2026/hash/3317577a5bc887afa8bab810bdf31635-Abstract-Conference.html
+3.3.2.1 Reflected Sampling,barrier/reflected diffusion,Diffusion models for constrained domains,arXiv,2023,https://arxiv.org/pdf/2304.05364
+3.3.2.1 Reflected Sampling,reflection-based diffusion,Reflected diffusion models,ICML,2023,https://proceedings.mlr.press/v202/lou23a.html
+3.3.2.1 Reflected Sampling,Metropolis constrained sampling,Metropolis sampling for constrained diffusion models,NeurIPS,2024,https://openreview.net/forum?id=jzseUq55eP
+3.3.2.1 Reflected Sampling,Reflected flow matching,Reflected Flow Matching,arXiv,2024,https://arxiv.org/pdf/2405.16577
+3.3.2.1 Reflected Sampling,reflected Schrodinger bridge,Reflected Schrödinger Bridge for Constrained Generative Modeling,arXiv,2024,https://arxiv.org/pdf/2401.03228
+3.3.2.1 Reflected Sampling,specular reflected Langevin,Score-based constrained generative modeling via Langevin diffusions with boundary conditions,arXiv,2025,https://arxiv.org/pdf/2510.23985
+3.3.2.1 Reflected Sampling,intrinsic-dimension adaptation in reflected diffusion,Reflected diffusion models adapt to low-dimensional data,arXiv,2026,https://arxiv.org/abs/2603.24495
+3.3.2.1 Reflected Sampling,confined probability-flow ODEs,"Reflected diffusion, no-flux continuity equations and confined Lagrangian flows in bounded domains",arXiv,2026,https://arxiv.org/abs/2607.28344
+3.3.2.1 Reflected Sampling,statistical analysis of reflected diffusion,Statistical guarantees for denoising reflected diffusion models,JMLR,2026,https://jmlr.org/papers/v27/25-1588.html
+3.3.2.2 Manifold Sampling,Riemannian diffusion,Riemannian diffusion models,NeurIPS,2022,https://proceedings.neurips.cc/paper_files/paper/2022/hash/123d3e814e257e0781e5d328232ead9b-Abstract-Conference.html
+3.3.2.2 Manifold Sampling,Riemannian Schrodinger bridge,Riemannian Diffusion Schrödinger Bridge,arXiv,2022,https://arxiv.org/pdf/2207.03024
+3.3.2.2 Manifold Sampling,manifold score model,Riemannian score-based generative modelling,NeurIPS,2022,https://proceedings.neurips.cc/paper_files/paper/2022/hash/105112d52254f86d5854f3da734a52b4-Abstract-Conference.html
+3.3.2.2 Manifold Sampling,scalable Riemannian diffusion,Scaling riemannian diffusion models,NeurIPS,2023,https://openreview.net/forum?id=FLTg8uA5xI
+3.3.2.2 Manifold Sampling,SE(3) protein diffusion,SE(3) diffusion model with application to protein backbone generation,arXiv,2023,https://arxiv.org/pdf/2302.02277
+3.3.2.2 Manifold Sampling,categorical statistical-manifold flow,Categorical flow matching on statistical manifolds,NeurIPS,2024,https://openreview.net/forum?id=5fybcQZ0g4
+3.3.2.2 Manifold Sampling,Fisher-geometric flow matching,Fisher flow matching for generative modeling over discrete data,arXiv,2024,https://arxiv.org/pdf/2405.14664
+3.3.2.2 Manifold Sampling,Riemannian / general-geometry flow matching,Flow Matching on General Geometries,ICLR,2024,https://openreview.net/forum?id=g7ohDlTITL
+3.3.2.2 Manifold Sampling,Riemannian flow matching for materials,FlowMM: Generating materials with Riemannian flow matching,arXiv,2024,https://arxiv.org/pdf/2406.04713
+3.3.2.2 Manifold Sampling,Metric / geodesic flow matching,Metric flow matching for smooth interpolations on the data manifold,NeurIPS,2024,https://openreview.net/forum?id=fE3RqiF4Nx
+3.3.2.2 Manifold Sampling,manifold diffusion and flow framework,Unified Framework for Diffusion Generative Models in SO(3): Applications in Computer Vision and Astrophysics,AAAI,2024,https://ojs.aaai.org/index.php/AAAI/article/download/29171/30215
+3.3.2.2 Manifold Sampling,Stiefel flow matching for moment constraints,Stiefel Flow Matching for Moment-Constrained Structure Elucidation,ICLR,2025,https://proceedings.iclr.cc/paper_files/paper/2025/file/35fdecdf8861bc15110d48fbec3193cf-Paper-Conference.pdf
+3.3.2.2 Manifold Sampling,polynomial convergence of Riemannian diffusion,Polynomial Convergence of Riemannian Diffusion Models,ICLR,2026,https://openreview.net/forum?id=lL0FR3UPhZ
+3.3.2.2 Manifold Sampling,total-variation bounds for Riemannian flow matching,Total Variation Rates for Riemannian Flow Matching,arXiv,2026,https://arxiv.org/abs/2602.05174
 3.3.3 Constraint Parameterization,mirror diffusion,Mirror diffusion models for constrained and watermarked generation,NeurIPS,2024,https://openreview.net/forum?id=XPWEtXzlLy
 3.3.3 Constraint Parameterization,NAMM learned mirror map,Neural Approximate Mirror Maps for Constrained Diffusion Models,arXiv,2024,https://arxiv.org/pdf/2406.12816
 3.3.3 Constraint Parameterization,Variational flow matching for graphs,Variational flow matching for graph generation,NeurIPS,2024,https://proceedings.neurips.cc/paper_files/paper/2024/hash/15b780350b302a1bf9a3bd273f5c15a4-Abstract-Conference.html
 3.3.3 Constraint Parameterization,polytope flow via ball homeomorphism,Flows on convex polytopes,arXiv,2025,https://arxiv.org/pdf/2503.10232
 3.3.3 Constraint Parameterization,heavy-tailed mirror flow,Mirror flow matching with heavy-tailed priors for generative modeling on convex domains,arXiv,2025,https://arxiv.org/pdf/2510.08929
+3.3.3 Constraint Parameterization,DiffeoCFM pullback-metric coordinate transport,Riemannian Flow Matching for Brain Connectivity Matrices via Pullback Geometry,NeurIPS,2025,https://proceedings.neurips.cc/paper_files/paper/2025/file/5616112a0120c15bf7d47a6bccc21bc3-Paper-Conference.pdf
 3.3.3 Constraint Parameterization,simplex-to-Euclidean map,Simplex-to-Euclidean Bijections for Categorical Flow Matching,arXiv,2025,https://arxiv.org/pdf/2510.27480
 3.3.3 Constraint Parameterization,categorical endpoint flow maps,Categorical Flow Maps,arXiv,2026,https://arxiv.org/pdf/2602.12233
 3.3.3 Constraint Parameterization,gauge flow matching,Gauge Flow Matching: Efficient Constrained Generative Modeling over General Convex Set and Beyond,ICLR,2026,https://openreview.net/forum?id=vxq1OnaAMq
 3.3.3 Constraint Parameterization,PolyFlow feasible convex-combination updates,PolyFlow: Safe and Efficient Polytope-Constrained Flow Matching with Constraint Embedding and Projection-free Update,ICML,2026,https://proceedings.mlr.press/v306/ma26ar.html
-3.3.4 Decoding and Correction,projected diffusion sampling,Constrained Synthesis with Projected Diffusion Models,NeurIPS,2024,https://openreview.net/forum?id=FsdB3I9Y24
-3.3.4 Decoding and Correction,ECI extrapolation-correction-interpolation,Gradient-free generation for hard-constrained systems,arXiv,2024,https://arxiv.org/pdf/2412.01786
-3.3.4 Decoding and Correction,continuous MAPF projected diffusion,Multi-Agent Path Finding in Continuous Spaces with Projected Diffusion Models,arXiv,2024,https://arxiv.org/pdf/2412.17993
-3.3.4 Decoding and Correction,CCFM probabilistic noisy-state correction,Chance-constrained Flow Matching for High-Fidelity Constraint-aware Generation,arXiv,2025,https://arxiv.org/pdf/2509.25157
-3.3.4 Decoding and Correction,CDD constrained discrete sampling,Constrained discrete diffusion,arXiv,2025,https://arxiv.org/pdf/2503.09790
-3.3.4 Decoding and Correction,CPS posterior-mean projection,Constrained Posterior Sampling: Time Series Generation with Hard Constraints,NeurIPS,2025,https://proceedings.neurips.cc/paper_files/paper/2025/file/9b01c4a7d3fc49875dad3c13848bcd9e-Paper-Conference.pdf
-3.3.4 Decoding and Correction,OLLA constrained Langevin,Fast Non-Log-Concave Sampling under Nonconvex Equality and Inequality Constraints with Landing,arXiv,2025,https://arxiv.org/pdf/2510.22044
-3.3.4 Decoding and Correction,CDIM constrained update,Linearly Constrained Diffusion Implicit Models,NeurIPS,2025,https://openreview.net/forum?id=TYGDG9zEML
-3.3.4 Decoding and Correction,LoMAP local projection,Local Manifold Approximation and Projection for Manifold-Aware Diffusion Planning,ICML,2025,https://openreview.net/forum?id=EHG5Iv1mmb
-3.3.4 Decoding and Correction,Neural SHAKE manifold projection,Neural SHAKE: Geometric Constraints in Neural Differential Equations,Journal of Cheminformatics,2025,https://jcheminf.biomedcentral.com/counter/pdf/10.1186/s13321-025-01053-w
-3.3.4 Decoding and Correction,PCFM physics correction,Physics-Constrained Flow Matching: Sampling Generative Models with Hard Constraints,NeurIPS,2025,https://openreview.net/forum?id=cf4etwjY7n
-3.3.4 Decoding and Correction,specular reflected Langevin,Score-based constrained generative modeling via Langevin diffusions with boundary conditions,arXiv,2025,https://arxiv.org/pdf/2510.23985
-3.3.4 Decoding and Correction,projected multi-robot diffusion,Simultaneous multi-robot motion planning with projected diffusion models,arXiv,2025,https://arxiv.org/pdf/2502.03607
-3.3.4 Decoding and Correction,latent proximal correction,Training-Free Constrained Generation With Stable Diffusion Models,NeurIPS,2025,https://openreview.net/forum?id=TrNB08KuHK
-3.3.4 Decoding and Correction,collision correction with noise interpolation,CCFM: Collision-Constrained Flow Matching for Safety-Critical Scenario Generation,ECCV,2026,https://eccv.ecva.net/virtual/2026/poster/5969
-3.3.4 Decoding and Correction,localized feedback for diffusion code repair,Constrained Code Generation with Discrete Diffusion,arXiv,2026,https://arxiv.org/abs/2605.16829
-3.3.4 Decoding and Correction,grammar-constrained masked diffusion decoding,Constrained Decoding of Diffusion LLMs with Context-Free Grammars,ICLR,2026,https://proceedings.iclr.cc/paper_files/paper/2026/hash/a1622fc2f8e37ea5fc696d1c13861c36-Abstract-Conference.html
-3.3.4 Decoding and Correction,stochastic proximal constrained diffusion with consensus ADMM,Constrained Diffusion for Protein Design with Hard Structural Constraints,ICLR,2026,https://openreview.net/forum?id=kkvqVRu2Zy
-3.3.4 Decoding and Correction,Lagrangian dual flows for residual correction,Constrained Flow Matching via Lagrangian Dual Flows,arXiv,2026,https://arxiv.org/abs/2607.04513
-3.3.4 Decoding and Correction,DiRecT constrained clean-endpoint solves,DiRecT: Safe Diffusion-Based Planning via Receding-Horizon Denoising,arXiv,2026,https://arxiv.org/abs/2606.15359
-3.3.4 Decoding and Correction,landing mechanism,Efficient Diffusion Models under Nonconvex Equality and Inequality Constraints via Landing,ICML,2026,https://arxiv.org/pdf/2604.17838
-3.3.4 Decoding and Correction,adaptive projection-budget scheduling,Enforcing Constraints in Generative Sampling via Adaptive Correction Scheduling,arXiv,2026,https://arxiv.org/abs/2605.11214
-3.3.4 Decoding and Correction,EPIC memoized grammar completion checks,EPIC: Efficient and Parallel Inference under CFG Constraints for Diffusion Language Models,arXiv,2026,https://arxiv.org/abs/2606.00722
-3.3.4 Decoding and Correction,FAST-DIPS measurement correction,FAST-DIPS: Adjoint-Free Analytic Steps and Hard-Constrained Likelihood Correction for Diffusion-Prior Inverse Problems,ICLR,2026,https://openreview.net/forum?id=voMeZVAkKL
-3.3.4 Decoding and Correction,MaxSMT graph correction,Hard-Constrained Graph Generation with Discrete-Projection Diffusion,ICML,2026,https://proceedings.mlr.press/v306/zhang26fh.html
-3.3.4 Decoding and Correction,predict-project-renoise sampling,Predict-Project-Renoise: Sampling Diffusion Models under Hard Constraints,arXiv,2026,https://arxiv.org/abs/2601.21033
-3.3.4 Decoding and Correction,ProjFlow kinematics-aware endpoint projection,ProjFlow: Projection Sampling with Flow Matching for Zero-Shot Exact Spatial Motion Control,CVPR,2026,https://arxiv.org/abs/2602.22742
-3.3.4 Decoding and Correction,SearchDiff candidate selection and token edits,Search-Augmented Masked Diffusion Models for Constrained Generation,arXiv,2026,https://arxiv.org/abs/2602.02727
-3.3.4 Decoding and Correction,split augmented Langevin projection,Strictly Constrained Generative Modeling via Split Augmented Langevin Sampling,ICLR,2026,https://openreview.net/forum?id=aDJcWNmfce
-3.3.5 Energy and Gradient Guidance,MCG manifold-constraint gradient guidance,Improving diffusion models for inverse problems using manifold constraints,NeurIPS,2022,https://proceedings.neurips.cc/paper_files/paper/2022/hash/a48e5877c7bf86a513950ab23b360498-Abstract-Conference.html
-3.3.5 Energy and Gradient Guidance,FlowGrad generative-ODE gradient control,FlowGrad: Controlling the Output of Generative ODEs with Gradients,CVPR,2023,https://openaccess.thecvf.com/content/CVPR2023/html/Liu_FlowGrad_Controlling_the_Output_of_Generative_ODEs_With_Gradients_CVPR_2023_paper.html
-3.3.5 Energy and Gradient Guidance,FreeDoM energy-guided conditional sampling,FreeDoM: Training-Free Energy-Guided Conditional Diffusion Model,arXiv,2023,https://arxiv.org/abs/2303.09833
-3.3.5 Energy and Gradient Guidance,SE(3)-DiffusionFields learned pose costs,Se (3)-diffusionfields: Learning smooth cost functions for joint grasp and motion optimization through diffusion,ICRA,2023,https://doi.org/10.1109/ICRA48891.2023.10161569
-3.3.5 Energy and Gradient Guidance,universal guidance,Universal Guidance for Diffusion Models,arXiv,2023,https://arxiv.org/abs/2302.07121
-3.3.5 Energy and Gradient Guidance,trust sampling,Constrained Diffusion with Trust Sampling,NeurIPS,2024,https://openreview.net/forum?id=dJUb9XRoZI
-3.3.5 Energy and Gradient Guidance,D-Flow differentiation through sampling flows,D-Flow: Differentiating through Flows for Controlled Generation,ICML,2024,https://arxiv.org/abs/2402.14017
-3.3.5 Energy and Gradient Guidance,discrete diffusion guidance,Simple Guidance Mechanisms for Discrete Diffusion Models,ICLR,2025,https://arxiv.org/abs/2412.10193
-3.3.5 Energy and Gradient Guidance,structural-statistic multiplier guidance,Feasible Flow Matching for Graph Reconstruction via Within-Sampling Primal-Dual Guidance,arXiv,2026,https://arxiv.org/abs/2609.32980
-3.3.5 Energy and Gradient Guidance,flow-map terminal reward guidance,How to Guide Your Flow: Few-Step Alignment via Flow Map Reward Guidance,ICML,2026,https://proceedings.mlr.press/v306/huang26ae.html
-3.3.5 Energy and Gradient Guidance,primal-dual expected token-budget guidance,Primal-Dual Guided Decoding for Constrained Discrete Diffusion,arXiv,2026,https://arxiv.org/abs/2605.09749
-3.3.6 Bridges and Optimal Control,constrained diffusion bridge,Learning Diffusion Bridges on Constrained Domains,ICLR,2023,https://openreview.net/forum?id=WH1yCa0TbB
-3.3.6 Bridges and Optimal Control,SafeDiffuser barrier constraints during sampling,SafeDiffuser: Safe Planning with Diffusion Probabilistic Models,arXiv,2023,https://arxiv.org/abs/2306.00148
-3.3.6 Bridges and Optimal Control,manually bridged diffusion,Constrained generative modeling with manually bridged diffusion models,AAAI,2025,https://ojs.aaai.org/index.php/AAAI/article/view/34159
-3.3.6 Bridges and Optimal Control,terminal constrained trajectory optimization,HardFlow: Hard-Constrained Sampling for Flow-Matching Models via Trajectory Optimization,arXiv,2025,https://arxiv.org/pdf/2511.08425
-3.3.6 Bridges and Optimal Control,constricting barrier-function control,Provably Safe Generative Sampling with Constricting Barrier Functions,arXiv,2026,https://arxiv.org/abs/2602.21429
-3.3.6 Bridges and Optimal Control,SafeFlowMatcher CBF correction,SafeFlowMatcher: Safe and Fast Planning Using Flow Matching with Control Barrier Functions,ICLR,2026,https://openreview.net/forum?id=refcXHU1Nh
-3.3.6 Bridges and Optimal Control,TOCFlow terminal optimal control,Terminally constrained flow-based generative models from an optimal control perspective,arXiv,2026,https://arxiv.org/pdf/2601.09474
-3.4.1 Training and Fine-Tuning,shortcut DDPM fine-tuning,Optimizing ddpm sampling with shortcut fine-tuning,arXiv,2023,https://arxiv.org/pdf/2301.13362
-3.4.1 Training and Fine-Tuning,adjoint-matching fine-tuning,Adjoint matching: Fine-tuning flow and diffusion generative models with memoryless stochastic optimal control,arXiv,2024,https://arxiv.org/pdf/2409.08861
-3.4.1 Training and Fine-Tuning,dual constrained training,Constrained diffusion models via dual training,NeurIPS,2024,https://openreview.net/forum?id=Es2Ey2tGmM
-3.4.1 Training and Fine-Tuning,entropy-regularized diffusion control,Fine-tuning of continuous-time diffusion models as entropy-regularized control,arXiv,2024,https://arxiv.org/pdf/2402.15194
-3.4.1 Training and Fine-Tuning,generative calibration,Calibrating Generative Models,arXiv,2025,https://arxiv.org/pdf/2510.10020
-3.4.1 Training and Fine-Tuning,constrained diffusion composition,Composition and alignment of diffusion models using constrained learning,NeurIPS,2025,https://proceedings.neurips.cc/paper_files/paper/2025/file/1af991de2d4c4e679bcc5d9e23ac6bae-Paper-Conference.pdf
-3.4.1 Training and Fine-Tuning,hard linear-equality constrained DGM,Deep Generative Models with Hard Linear Equality Constraints,arXiv,2025,https://arxiv.org/abs/2502.05416
-3.4.1 Training and Fine-Tuning,physics-constrained flow fine-tuning,Physics-Constrained Fine-Tuning of Flow-Matching Models for Generation and Inverse Problems,arXiv,2025,https://arxiv.org/pdf/2508.09156
-3.4.1 Training and Fine-Tuning,physics-informed diffusion training,Physics-Informed Diffusion Models,ICLR,2025,https://proceedings.iclr.cc/paper_files/paper/2025/hash/096347b4efc264ae7f07742fea34af1f-Abstract-Conference.html
-3.4.1 Training and Fine-Tuning,softly constrained denoiser,Softly Constrained Denoisers for Diffusion Models,arXiv,2025,https://arxiv.org/pdf/2512.14980
-3.4.1 Training and Fine-Tuning,unified diffusion bridge,UniDB: A Unified Diffusion Bridge Framework via Stochastic Optimal Control,arXiv,2025,https://arxiv.org/pdf/2502.05749
-3.4.1 Training and Fine-Tuning,dual-conditioned score model; ensemble inference,Constrained Diffusion Models with Primal-Dual Inference,arXiv,2026,https://arxiv.org/abs/2606.17192
-3.4.1 Training and Fine-Tuning,sequential augmented-Lagrangian flow fine-tuning,Constrained Flow Optimization via Sequential Fine-Tuning for Molecular Design,ICML,2026,https://proceedings.mlr.press/v306/gutjahr26a.html
-3.4.1 Training and Fine-Tuning,FM-DD endpoint distance; FM-RE membership queries,Constraint-Aware Flow Matching via Randomized Exploration,TMLR,2026,https://openreview.net/forum?id=OR4h9WPJhV
-3.4.1 Training and Fine-Tuning,decision-aligned flow training,Constraint-Aware Flow Matching: Decision Aligned End-to-End Training for Constrained Sampling,arXiv,2026,https://arxiv.org/pdf/2605.12754
-3.4.1 Training and Fine-Tuning,MBM++ gradient-conditioned residual updates,Improved Constrained Generation by Bridging Pretrained Generative Models,arXiv,2026,https://arxiv.org/abs/2603.06742
-3.4.1 Training and Fine-Tuning,rollout-trained sampling guidance,Integration Matters: Rollout-Based Training for Constrained Diffusion Models,arXiv,2026,https://arxiv.org/abs/2607.14398
-3.4.1 Training and Fine-Tuning,normal perturbations and final manifold projection,Manifold-Aware Perturbations for Constrained Generative Modeling,ICML,2026,https://proceedings.mlr.press/v306/keegan26a.html
-3.4.1 Training and Fine-Tuning,endpoint physics residuals; conflict-free gradients,Physics vs Distributions: Pareto Optimal Flow Matching with Physics Constraints,ICLR,2026,https://proceedings.iclr.cc/paper_files/paper/2026/hash/a57483b394a3654f4317051e4ce3b2b8-Abstract-Conference.html
-3.4.1 Training and Fine-Tuning,physics-informed diffusion distillation,Physics-Informed Distillation of Diffusion Models for PDE-Constrained Generation,ICML,2026,https://proceedings.mlr.press/v306/zhang26gl.html
-3.4.1 Training and Fine-Tuning,sCM-PINN structure-preserving decoder tuning,Stabilizing Physics-Informed Consistency Models via Structure-Preserving Training,KDD,2026,https://doi.org/10.1145/3770855.3819059
-3.4.1 Training and Fine-Tuning,physics-informed generator distillation,Ultra Fast PDE Solving via Physics Guided Few-step Diffusion,arXiv,2026,https://arxiv.org/abs/2602.03627
-3.4.1 Training and Fine-Tuning,Flow Expander entropy and verifier fine-tuning,Verifier-Constrained Flow Expansion for Discovery Beyond the Data,ICLR,2026,https://proceedings.iclr.cc/paper_files/paper/2026/hash/3317577a5bc887afa8bab810bdf31635-Abstract-Conference.html
-3.4.2 Combining Mechanisms,constrained diffusion solver warm start,Efficient and Guaranteed-Safe Non-Convex Trajectory Optimization with Constrained Diffusion Model,arXiv,2024,https://arxiv.org/pdf/2403.05571
-3.4.2 Combining Mechanisms,Constrained Diffusers,Constrained diffusers for safe planning and control,arXiv,2025,https://arxiv.org/pdf/2506.12544
-3.4.2 Combining Mechanisms,coupled projection for joint diffusion generation,Projected Coupled Diffusion for Test-Time Constrained Joint Generation,arXiv,2025,https://arxiv.org/pdf/2508.10531
-3.4.2 Combining Mechanisms,endpoint-conditioned GP source; guided flow targets,ConFlow: Constraints-Guided Learning with Flow Matching for Motion Generation,arXiv,2026,https://arxiv.org/abs/2607.14424
-3.4.2 Combining Mechanisms,decision-aligned flow training,Constraint-Aware Flow Matching: Decision Aligned End-to-End Training for Constrained Sampling,arXiv,2026,https://arxiv.org/pdf/2605.12754
-3.4.2 Combining Mechanisms,valence generation; charge filter; crystal diffusion,Enhancing materials discovery with valence-constrained design in generative modeling,Nat. Comput. Sci.,2026,https://www.nature.com/articles/s43588-026-01037-2
-3.4.2 Combining Mechanisms,LOGDIFF Boolean-circuit score composition,Logical Guidance for the Exact Composition of Diffusion Models,ICML,2026,https://proceedings.mlr.press/v306/alesiani26a.html
-3.4.2 Combining Mechanisms,retrieval-guided diffusion noise optimization,Towards Highly-Constrained Human Motion Generation with Retrieval-Guided Diffusion Noise Optimization,CVPR,2026,https://openaccess.thecvf.com/content/CVPR2026/html/Liu_Towards_Highly-Constrained_Human_Motion_Generation_with_Retrieval-Guided_Diffusion_Noise_Optimization_CVPR_2026_paper.html
+3.3.4.1 Continuous Guidance,MCG manifold-constraint gradient guidance,Improving diffusion models for inverse problems using manifold constraints,NeurIPS,2022,https://proceedings.neurips.cc/paper_files/paper/2022/hash/a48e5877c7bf86a513950ab23b360498-Abstract-Conference.html
+3.3.4.1 Continuous Guidance,FlowGrad generative-ODE gradient control,FlowGrad: Controlling the Output of Generative ODEs with Gradients,CVPR,2023,https://openaccess.thecvf.com/content/CVPR2023/html/Liu_FlowGrad_Controlling_the_Output_of_Generative_ODEs_With_Gradients_CVPR_2023_paper.html
+3.3.4.1 Continuous Guidance,FreeDoM energy-guided conditional sampling,FreeDoM: Training-Free Energy-Guided Conditional Diffusion Model,arXiv,2023,https://arxiv.org/abs/2303.09833
+3.3.4.1 Continuous Guidance,SE(3)-DiffusionFields learned pose costs,Se (3)-diffusionfields: Learning smooth cost functions for joint grasp and motion optimization through diffusion,ICRA,2023,https://doi.org/10.1109/ICRA48891.2023.10161569
+3.3.4.1 Continuous Guidance,universal guidance,Universal Guidance for Diffusion Models,arXiv,2023,https://arxiv.org/abs/2302.07121
+3.3.4.1 Continuous Guidance,trust sampling,Constrained Diffusion with Trust Sampling,NeurIPS,2024,https://openreview.net/forum?id=dJUb9XRoZI
+3.3.4.1 Continuous Guidance,D-Flow differentiation through sampling flows,D-Flow: Differentiating through Flows for Controlled Generation,ICML,2024,https://arxiv.org/abs/2402.14017
+3.3.4.1 Continuous Guidance,gradient guidance for chance-constrained programming,A Gradient Guided Diffusion Framework for Chance Constrained Programming,NeurIPS,2025,https://openreview.net/forum?id=Flntl1YwZg
+3.3.4.1 Continuous Guidance,terminal constrained trajectory optimization,HardFlow: Hard-Constrained Sampling for Flow-Matching Models via Trajectory Optimization,arXiv,2025,https://arxiv.org/pdf/2511.08425
+3.3.4.1 Continuous Guidance,flow-map terminal reward guidance,How to Guide Your Flow: Few-Step Alignment via Flow Map Reward Guidance,ICML,2026,https://proceedings.mlr.press/v306/huang26ae.html
+3.3.4.1 Continuous Guidance,TOCFlow terminal optimal control,Terminally constrained flow-based generative models from an optimal control perspective,arXiv,2026,https://arxiv.org/pdf/2601.09474
+3.3.4.2 Continuous Correction,SafeDiffuser barrier constraints during sampling,SafeDiffuser: Safe Planning with Diffusion Probabilistic Models,arXiv,2023,https://arxiv.org/abs/2306.00148
+3.3.4.2 Continuous Correction,projected diffusion sampling,Constrained Synthesis with Projected Diffusion Models,NeurIPS,2024,https://openreview.net/forum?id=FsdB3I9Y24
+3.3.4.2 Continuous Correction,ECI extrapolation-correction-interpolation,Gradient-free generation for hard-constrained systems,arXiv,2024,https://arxiv.org/pdf/2412.01786
+3.3.4.2 Continuous Correction,continuous MAPF projected diffusion,Multi-Agent Path Finding in Continuous Spaces with Projected Diffusion Models,arXiv,2024,https://arxiv.org/pdf/2412.17993
+3.3.4.2 Continuous Correction,CCFM probabilistic noisy-state correction,Chance-constrained Flow Matching for High-Fidelity Constraint-aware Generation,arXiv,2025,https://arxiv.org/pdf/2509.25157
+3.3.4.2 Continuous Correction,CoCoGen physical-residual gradient correction,CoCoGen: Physically Consistent and Conditioned Score-Based Generative Models for Forward and Inverse Problems,SIAM J. Sci. Comput.,2025,https://doi.org/10.1137/24m1636071
+3.3.4.2 Continuous Correction,CPS posterior-mean projection,Constrained Posterior Sampling: Time Series Generation with Hard Constraints,NeurIPS,2025,https://proceedings.neurips.cc/paper_files/paper/2025/file/9b01c4a7d3fc49875dad3c13848bcd9e-Paper-Conference.pdf
+3.3.4.2 Continuous Correction,fast constrained sampling,Fast constrained sampling in pre-trained diffusion models,NeurIPS,2025,https://openreview.net/forum?id=3kVM0m60Q5
+3.3.4.2 Continuous Correction,OLLA constrained Langevin,Fast Non-Log-Concave Sampling under Nonconvex Equality and Inequality Constraints with Landing,arXiv,2025,https://arxiv.org/pdf/2510.22044
+3.3.4.2 Continuous Correction,LLE inverse-algorithm extrapolation,Improving Diffusion-based Inverse Algorithms under Few-Step Constraint via Linear Extrapolation,NeurIPS,2025,https://openreview.net/forum?id=EGYwfs4XhI
+3.3.4.2 Continuous Correction,CDIM constrained update,Linearly Constrained Diffusion Implicit Models,NeurIPS,2025,https://openreview.net/forum?id=TYGDG9zEML
+3.3.4.2 Continuous Correction,LoMAP local projection,Local Manifold Approximation and Projection for Manifold-Aware Diffusion Planning,ICML,2025,https://openreview.net/forum?id=EHG5Iv1mmb
+3.3.4.2 Continuous Correction,Neural SHAKE manifold projection,Neural SHAKE: Geometric Constraints in Neural Differential Equations,Journal of Cheminformatics,2025,https://jcheminf.biomedcentral.com/counter/pdf/10.1186/s13321-025-01053-w
+3.3.4.2 Continuous Correction,PCFM physics correction,Physics-Constrained Flow Matching: Sampling Generative Models with Hard Constraints,NeurIPS,2025,https://openreview.net/forum?id=cf4etwjY7n
+3.3.4.2 Continuous Correction,projected multi-robot diffusion,Simultaneous multi-robot motion planning with projected diffusion models,arXiv,2025,https://arxiv.org/pdf/2502.03607
+3.3.4.2 Continuous Correction,latent proximal correction,Training-Free Constrained Generation With Stable Diffusion Models,NeurIPS,2025,https://openreview.net/forum?id=TrNB08KuHK
+3.3.4.2 Continuous Correction,collision correction with noise interpolation,CCFM: Collision-Constrained Flow Matching for Safety-Critical Scenario Generation,ECCV,2026,https://eccv.ecva.net/virtual/2026/poster/5969
+3.3.4.2 Continuous Correction,stochastic proximal constrained diffusion with consensus ADMM,Constrained Diffusion for Protein Design with Hard Structural Constraints,ICLR,2026,https://openreview.net/forum?id=kkvqVRu2Zy
+3.3.4.2 Continuous Correction,Lagrangian dual flows for residual correction,Constrained Flow Matching via Lagrangian Dual Flows,arXiv,2026,https://arxiv.org/abs/2607.04513
+3.3.4.2 Continuous Correction,DiRecT constrained clean-endpoint solves,DiRecT: Safe Diffusion-Based Planning via Receding-Horizon Denoising,arXiv,2026,https://arxiv.org/abs/2606.15359
+3.3.4.2 Continuous Correction,landing mechanism,Efficient Diffusion Models under Nonconvex Equality and Inequality Constraints via Landing,ICML,2026,https://arxiv.org/pdf/2604.17838
+3.3.4.2 Continuous Correction,adaptive projection-budget scheduling,Enforcing Constraints in Generative Sampling via Adaptive Correction Scheduling,arXiv,2026,https://arxiv.org/abs/2605.11214
+3.3.4.2 Continuous Correction,FAST-DIPS measurement correction,FAST-DIPS: Adjoint-Free Analytic Steps and Hard-Constrained Likelihood Correction for Diffusion-Prior Inverse Problems,ICLR,2026,https://openreview.net/forum?id=voMeZVAkKL
+3.3.4.2 Continuous Correction,predict-project-renoise sampling,Predict-Project-Renoise: Sampling Diffusion Models under Hard Constraints,arXiv,2026,https://arxiv.org/abs/2601.21033
+3.3.4.2 Continuous Correction,ProjFlow kinematics-aware endpoint projection,ProjFlow: Projection Sampling with Flow Matching for Zero-Shot Exact Spatial Motion Control,CVPR,2026,https://arxiv.org/abs/2602.22742
+3.3.4.2 Continuous Correction,constricting barrier-function control,Provably Safe Generative Sampling with Constricting Barrier Functions,arXiv,2026,https://arxiv.org/abs/2602.21429
+3.3.4.2 Continuous Correction,SafeFlowMatcher CBF correction,SafeFlowMatcher: Safe and Fast Planning Using Flow Matching with Control Barrier Functions,ICLR,2026,https://openreview.net/forum?id=refcXHU1Nh
+3.3.4.2 Continuous Correction,split augmented Langevin projection,Strictly Constrained Generative Modeling via Split Augmented Langevin Sampling,ICLR,2026,https://openreview.net/forum?id=aDJcWNmfce
+"3.3.4.3 Discrete Guidance, Decoding, and Repair",CDD constrained discrete sampling,Constrained discrete diffusion,arXiv,2025,https://arxiv.org/pdf/2503.09790
+"3.3.4.3 Discrete Guidance, Decoding, and Repair",CTDF mixed-type constraint correction,Constrained Tabular Diffusion for Finance,ICAIF,2025,https://doi.org/10.1145/3768292.3770358
+"3.3.4.3 Discrete Guidance, Decoding, and Repair",Euclidean / KL neuro-symbolic correction,"Neuro-Symbolic Generative Diffusion Models for Physically Grounded, Robust, and Safe Generation",NeuS,2025,https://proceedings.mlr.press/v288/christopher25a.html
+"3.3.4.3 Discrete Guidance, Decoding, and Repair",discrete diffusion guidance,Simple Guidance Mechanisms for Discrete Diffusion Models,ICLR,2025,https://arxiv.org/abs/2412.10193
+"3.3.4.3 Discrete Guidance, Decoding, and Repair",TFG-Flow coordinate gradients / categorical Monte Carlo,TFG-Flow: Training-free Guidance in Multimodal Generative Flow,ICLR,2025,https://proceedings.iclr.cc/paper_files/paper/2025/file/aca042ae71283d25b3d063fc011db9e8-Paper-Conference.pdf
+"3.3.4.3 Discrete Guidance, Decoding, and Repair",likelihood-ratio discrete jump-rate guidance,Unlocking Guidance for Discrete State-Space Diffusion and Flow Models,ICLR,2025,https://proceedings.iclr.cc/paper_files/paper/2025/file/597254dc45be8c166d3ccf0ba2d56325-Paper-Conference.pdf
+"3.3.4.3 Discrete Guidance, Decoding, and Repair",localized feedback for diffusion code repair,Constrained Code Generation with Discrete Diffusion,arXiv,2026,https://arxiv.org/abs/2605.16829
+"3.3.4.3 Discrete Guidance, Decoding, and Repair",grammar-constrained masked diffusion decoding,Constrained Decoding of Diffusion LLMs with Context-Free Grammars,ICLR,2026,https://proceedings.iclr.cc/paper_files/paper/2026/hash/a1622fc2f8e37ea5fc696d1c13861c36-Abstract-Conference.html
+"3.3.4.3 Discrete Guidance, Decoding, and Repair",EPIC memoized grammar completion checks,EPIC: Efficient and Parallel Inference under CFG Constraints for Diffusion Language Models,arXiv,2026,https://arxiv.org/abs/2606.00722
+"3.3.4.3 Discrete Guidance, Decoding, and Repair",structural-statistic multiplier guidance,Feasible Flow Matching for Graph Reconstruction via Within-Sampling Primal-Dual Guidance,arXiv,2026,https://arxiv.org/abs/2609.32980
+"3.3.4.3 Discrete Guidance, Decoding, and Repair",MaxSMT graph correction,Hard-Constrained Graph Generation with Discrete-Projection Diffusion,ICML,2026,https://proceedings.mlr.press/v306/zhang26fh.html
+"3.3.4.3 Discrete Guidance, Decoding, and Repair",LOGDIFF Boolean-circuit score composition,Logical Guidance for the Exact Composition of Diffusion Models,ICML,2026,https://proceedings.mlr.press/v306/alesiani26a.html
+"3.3.4.3 Discrete Guidance, Decoding, and Repair",primal-dual expected token-budget guidance,Primal-Dual Guided Decoding for Constrained Discrete Diffusion,arXiv,2026,https://arxiv.org/abs/2605.09749
+"3.3.4.3 Discrete Guidance, Decoding, and Repair",SearchDiff candidate selection and token edits,Search-Augmented Masked Diffusion Models for Constrained Generation,arXiv,2026,https://arxiv.org/abs/2602.02727
+3.3.4.4 Candidate and Path Search,SCG rule-loss candidate selection,Symbolic Music Generation with Non-Differentiable Rule Guided Diffusion,ICML,2024,https://proceedings.mlr.press/v235/huang24g.html
+3.3.4.4 Candidate and Path Search,SVDD soft value-weighted candidate decoding,Derivative-Free Guidance in Continuous and Discrete Diffusion Models with Soft Value-based Decoding,NeurIPS,2025,https://proceedings.neurips.cc/paper_files/paper/2025/file/899af0d66d8850318a20781484416152-Paper-Conference.pdf
+3.3.4.4 Candidate and Path Search,TreeG derivative-free sampling-path search,Training-Free Guidance Beyond Differentiability: Scalable Path Steering with Tree Search in Diffusion and Flow Models,NeurIPS,2025,https://proceedings.neurips.cc/paper_files/paper/2025/file/6a14c7f9fb3f42645cfa6bd5aa446819-Paper-Conference.pdf
+3.3.4.5 Bridge-Based Sampling,first-hitting feasible-set absorption,"First Hitting Diffusion Models for Generating Manifold, Graph and Categorical Data",NeurIPS,2022,https://proceedings.neurips.cc/paper_files/paper/2022/file/ae87d80f5a0f3ee5c5643448f9599d1b-Paper-Conference.pdf
+3.3.4.5 Bridge-Based Sampling,constrained diffusion bridge,Learning Diffusion Bridges on Constrained Domains,ICLR,2023,https://openreview.net/forum?id=WH1yCa0TbB
+3.3.4.5 Bridge-Based Sampling,manually bridged diffusion,Constrained generative modeling with manually bridged diffusion models,AAAI,2025,https://ojs.aaai.org/index.php/AAAI/article/view/34159
+3.3.5 Combining Mechanisms,optimization-path-aligned diffusion generation,Aligning Optimization Trajectories with Diffusion Models for Constrained Design Generation,arXiv,2023,https://arxiv.org/abs/2305.18470
+3.3.5 Combining Mechanisms,constrained diffusion solver warm start,Efficient and Guaranteed-Safe Non-Convex Trajectory Optimization with Constrained Diffusion Model,arXiv,2024,https://arxiv.org/pdf/2403.05571
+3.3.5 Combining Mechanisms,Constrained Diffusers,Constrained diffusers for safe planning and control,arXiv,2025,https://arxiv.org/pdf/2506.12544
+3.3.5 Combining Mechanisms,coupled projection for joint diffusion generation,Projected Coupled Diffusion for Test-Time Constrained Joint Generation,arXiv,2025,https://arxiv.org/pdf/2508.10531
+3.3.5 Combining Mechanisms,endpoint-conditioned GP source; guided flow targets,ConFlow: Constraints-Guided Learning with Flow Matching for Motion Generation,arXiv,2026,https://arxiv.org/abs/2607.14424
+3.3.5 Combining Mechanisms,decision-aligned flow training,Constraint-Aware Flow Matching: Decision Aligned End-to-End Training for Constrained Sampling,arXiv,2026,https://arxiv.org/pdf/2605.12754
+3.3.5 Combining Mechanisms,valence generation; charge filter; crystal diffusion,Enhancing materials discovery with valence-constrained design in generative modeling,Nat. Comput. Sci.,2026,https://www.nature.com/articles/s43588-026-01037-2
+3.3.5 Combining Mechanisms,retrieval-guided diffusion noise optimization,Towards Highly-Constrained Human Motion Generation with Retrieval-Guided Diffusion Noise Optimization,CVPR,2026,https://openaccess.thecvf.com/content/CVPR2026/html/Liu_Towards_Highly-Constrained_Human_Motion_Generation_with_Retrieval-Guided_Diffusion_Noise_Optimization_CVPR_2026_paper.html
 4.1.1 Optimal Power Flow,ML-for-OPF survey,A survey on applications of machine learning for optimal power flow,TPEC,2020,https://doi.org/10.1109/TPEC48276.2020.9042547
 4.1.1 Optimal Power Flow,fast AC-OPF penalty learning,Learning optimal solutions for extremely fast AC optimal power flow,SmartGridComm,2020,https://doi.org/10.1109/SmartGridComm47815.2020.9303008
 4.1.1 Optimal Power Flow,ML for optimal power flows,Machine learning for optimal power flows,INFORMS Tutorials,2021,https://doi.org/10.1287/educ.2021.0234

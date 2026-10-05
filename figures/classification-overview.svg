@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="840" height="410" viewBox="0 0 840 410" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="482" viewBox="0 0 840 482" role="img" aria-labelledby="title desc">
 <title id="title">Hard-Constrained Machine Learning: paper categories</title>
 <desc id="desc">Prediction and generation paper categories, with applications as a cross-cutting index. Numbering matches the linked paper lists.</desc>
-<rect width="840" height="410" fill="white"/>
+<rect width="840" height="482" fill="white"/>
 <g font-family="Arial, Helvetica, sans-serif" fill="#1f2328">
 <text x="420" y="32" text-anchor="middle" font-size="24" font-weight="700">Hard-Constrained Machine Learning</text>
 <path d="M420 48 V66 M210 66 H630 M210 66 V82 M630 66 V82" fill="none" stroke="#8c959f" stroke-width="2"/>
-<rect x="16" y="82" width="388" height="238" rx="6" fill="#f6f8fa" stroke="#d1d9e0"/>
+<rect x="16" y="82" width="388" height="310" rx="6" fill="#f6f8fa" stroke="#d1d9e0"/>
 <rect x="16" y="82" width="388" height="46" rx="6" fill="#0969da"/>
 <text x="34" y="113" font-size="23" font-weight="700" fill="white">2. Prediction</text>
 <text x="34" y="159" font-size="18">2.1 Training-Based Approaches</text>
@@ -13,14 +13,18 @@
 <text x="34" y="225" font-size="18">2.3 Constraint Parameterization</text>
 <text x="34" y="258" font-size="18">2.4 Post-Processing Approaches</text>
 <text x="34" y="291" font-size="18">2.5 Hybrid Pipelines</text>
-<rect x="436" y="82" width="388" height="238" rx="6" fill="#f6f8fa" stroke="#d1d9e0"/>
+<rect x="436" y="82" width="388" height="310" rx="6" fill="#f6f8fa" stroke="#d1d9e0"/>
 <rect x="436" y="82" width="388" height="46" rx="6" fill="#1a7f37"/>
 <text x="454" y="113" font-size="23" font-weight="700" fill="white">3. Generation</text>
 <text x="454" y="159" font-size="18">3.1 Direct Generation</text>
 <text x="454" y="192" font-size="18">3.2 Autoregressive Generation</text>
 <text x="454" y="225" font-size="18">3.3 Diffusion and Flow-Based Generation</text>
-<text x="454" y="258" font-size="18">3.4 Learning and Combining Mechanisms</text>
-<rect x="16" y="342" width="808" height="52" rx="6" fill="#fff8c5" stroke="#d4a72c"/>
-<text x="34" y="375" font-size="20" font-weight="700">4. Applications</text>
-<text x="222" y="375" font-size="19">Optimization and control / Science / Evaluator-guided generation</text>
+<text x="466" y="252" font-size="16" fill="#57606a">3.3.1 Training-Based Methods</text>
+<text x="466" y="276" font-size="16" fill="#57606a">3.3.2 Geometry-Aware Sampling</text>
+<text x="466" y="300" font-size="16" fill="#57606a">3.3.3 Constraint Parameterization</text>
+<text x="466" y="324" font-size="16" fill="#57606a">3.3.4 Guidance, Correction, and Search</text>
+<text x="466" y="348" font-size="16" fill="#57606a">3.3.5 Combining Mechanisms</text>
+<rect x="16" y="414" width="808" height="52" rx="6" fill="#fff8c5" stroke="#d4a72c"/>
+<text x="34" y="447" font-size="20" font-weight="700">4. Applications</text>
+<text x="222" y="447" font-size="19">Optimization and control / Science / Evaluator-guided generation</text>
 </g></svg>
