@@ -2,7 +2,9 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A categorized collection of papers on hard-constrained **prediction** and **generation**, following our companion survey.
+A curated paper list for **constrained machine learning**, covering hard-constrained **prediction** and **generation**. Following our companion survey, it organizes methods for constraint satisfaction and feasibility guarantees in neural networks, constrained optimization, and generative models.
+
+**Coverage:** [Constrained neural networks](docs/papers/prediction.md#22-structured-nn-layers) · [Differentiable optimization layers](docs/papers/prediction.md#223-optimization-based-layers) · [Feasibility projection](docs/papers/prediction.md#242-projection-based-correction) · [Constraint parameterization](docs/papers/prediction.md#23-constraint-parameterization) · [Constrained decoding](docs/papers/generation.md#32-autoregressive-generation) · [Constrained diffusion and flow matching](docs/papers/generation.md#33-diffusion-and-flow-based-generation)
 
 **Survey paper: preprint available soon.** We welcome missed papers and will keep this repository updated.
 
